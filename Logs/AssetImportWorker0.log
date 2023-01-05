@@ -1,420 +1,111 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Enterprise; OS build 19041.804; Version 2004; 64bit' Language: 'en' Physical Memory: 15697 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit Enterprise' Language: 'en' Physical Memory: 15697 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
- COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\2020.3.13f1\Editor\Unity.exe
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2021.3.14f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/u0146408/Documents/Unity/MainPhDProject
+C:/Users/u0146408/Documents/Unity/XRDataInteraction
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61949
-Successfully changed project path to: C:/Users/u0146408/Documents/Unity/MainPhDProject
-C:/Users/u0146408/Documents/Unity/MainPhDProject
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.70 ms, found 7 plugins.
+56957
+Successfully changed project path to: C:/Users/u0146408/Documents/Unity/XRDataInteraction
+C:/Users/u0146408/Documents/Unity/XRDataInteraction
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 480.51 ms, found 13 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.13f1 (71691879b7f5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/u0146408/Documents/Unity/MainPhDProject/Assets
-GfxDevice: creating device client; threaded=0
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/u0146408/Documents/Unity/XRDataInteraction/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
-    Vendor:   
+    Vendor:   ATI
     VRAM:     7848 MB
     Driver:   27.20.11041.2001
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/2020.3.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Mono path[0] = 'C:/Program Files/Unity/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002541 seconds.
+Register platform support module: C:/Program Files/Unity/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2021.3.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.273756 seconds.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.99 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 59.92 ms, found 13 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.595 seconds
+- Completed reload, in  5.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5087ms)
+		BeginReloadAssembly (3429ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1065ms)
+			LoadAssemblies (3447ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (681ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015878 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.93 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.461 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.4 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2533.
-Total: 2.870500 ms (FindLiveObjects: 0.333200 ms CreateObjectMapping: 0.116300 ms MarkObjects: 2.320300 ms  DeleteObjects: 0.098300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Packages/com.jelle-kul.mesh-alignment/Runtime/Jelle-KUL.MeshAlignment.asmdef
-  artifactKey: Guid(6149ebc7698ac4224945efce8b9c9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jelle-kul.mesh-alignment/Runtime/Jelle-KUL.MeshAlignment.asmdef using Guid(6149ebc7698ac4224945efce8b9c9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6ab80c4a22c537d789ede4c2189de7') in 0.027272 seconds 
-  Import took 0.032248 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009282 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 31.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.210 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1395 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.2 MB.
-System memory in use after: 73.3 MB.
-
-Unloading 611 unused Assets to reduce memory usage. Loaded Objects now: 1938.
-Total: 3.536100 ms (FindLiveObjects: 0.322900 ms CreateObjectMapping: 0.055600 ms MarkObjects: 2.865900 ms  DeleteObjects: 0.289300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003714 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1384 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.0 MB.
-System memory in use after: 67.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 1931.
-Total: 2.364900 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.039600 ms MarkObjects: 2.091200 ms  DeleteObjects: 0.029700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009040 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 41.66 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.9 MB.
-System memory in use after: 88.0 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2520.
-Total: 3.411100 ms (FindLiveObjects: 0.486900 ms CreateObjectMapping: 0.121700 ms MarkObjects: 2.744500 ms  DeleteObjects: 0.056100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009146 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.335 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.4 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2543.
-Total: 3.563600 ms (FindLiveObjects: 0.305100 ms CreateObjectMapping: 0.067900 ms MarkObjects: 3.134900 ms  DeleteObjects: 0.053700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 690.976171 seconds.
-  path: Packages/com.jelle-kul.mesh-alignment/Runtime/JelleKUL.MeshAlignment.asmdef
-  artifactKey: Guid(6149ebc7698ac4224945efce8b9c9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jelle-kul.mesh-alignment/Runtime/JelleKUL.MeshAlignment.asmdef using Guid(6149ebc7698ac4224945efce8b9c9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727dd38b15526f33984508bcbad4cfba') in 0.020282 seconds 
-  Import took 0.027882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015638 seconds.
-  path: Packages/com.jelle-kul.mesh-alignment/Runtime/JelleKUL.MeshAlignment.asmdef
-  artifactKey: Guid(6149ebc7698ac4224945efce8b9c9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jelle-kul.mesh-alignment/Runtime/JelleKUL.MeshAlignment.asmdef using Guid(6149ebc7698ac4224945efce8b9c9be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727dd38b15526f33984508bcbad4cfba') in 0.006267 seconds 
-  Import took 0.011026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.858786 seconds.
-  path: Packages/com.jellekul.xr-data-collection
-  artifactKey: Guid(8e16682c60023c17582199e6f84295ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jellekul.xr-data-collection using Guid(8e16682c60023c17582199e6f84295ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9c99f9ff893147b09b81fad63664ff') in 0.024671 seconds 
-  Import took 0.032691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.302315 seconds.
-  path: Packages/com.jellekul.xr-data-collection/Runtime/3DDataCollection
-  artifactKey: Guid(c09de960bb71fae46b2ddddac5dfe2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jellekul.xr-data-collection/Runtime/3DDataCollection using Guid(c09de960bb71fae46b2ddddac5dfe2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e0e211c73b17a932921a29ca72a5f5') in 0.017087 seconds 
-  Import took 0.024388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.153218 seconds.
-  path: Packages/com.jellekul.xr-data-collection/Runtime/JelleKUL.XRDataCollection.asmdef
-  artifactKey: Guid(1505c1d6fc13a6e4c9c4859b30157716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jellekul.xr-data-collection/Runtime/JelleKUL.XRDataCollection.asmdef using Guid(1505c1d6fc13a6e4c9c4859b30157716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3b5f0fd4582e1ee78dc579f8ebe2f1') in 0.014586 seconds 
-  Import took 0.019643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001992 seconds.
-  path: Packages/com.jellekul.xr-data-collection/Runtime/JelleKUL.XRDataCollection.asmdef
-  artifactKey: Guid(1505c1d6fc13a6e4c9c4859b30157716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jellekul.xr-data-collection/Runtime/JelleKUL.XRDataCollection.asmdef using Guid(1505c1d6fc13a6e4c9c4859b30157716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3b5f0fd4582e1ee78dc579f8ebe2f1') in 0.005936 seconds 
-  Import took 0.010828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.608479 seconds.
-  path: Packages/com.unity.xr.arfoundation/package.json
-  artifactKey: Guid(08e6a1d1bc87fb6408c3e916a260691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/package.json using Guid(08e6a1d1bc87fb6408c3e916a260691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3443da8e953e2c7b9a3b40147ff97c33') in 0.036471 seconds 
-  Import took 0.041137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.728470 seconds.
-  path: Packages/com.unity.xr.arfoundation/Runtime/AssemblyInfo.cs
-  artifactKey: Guid(45b274d6d3da5470d8f61867c6ea905f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Runtime/AssemblyInfo.cs using Guid(45b274d6d3da5470d8f61867c6ea905f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a14250e9a0d30fa5906c3abe00092b') in 0.020382 seconds 
-  Import took 0.025669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.318872 seconds.
-  path: Packages/com.unity.xr.arfoundation/Runtime/Unity.XR.ARFoundation.asmdef
-  artifactKey: Guid(a9420e37d7990b54abdef6688edbe313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Runtime/Unity.XR.ARFoundation.asmdef using Guid(a9420e37d7990b54abdef6688edbe313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd077032b3e6c8071cdfba3c56080e1d8') in 0.013822 seconds 
-  Import took 0.020553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001746 seconds.
-  path: Packages/com.unity.xr.arfoundation/Runtime/Unity.XR.ARFoundation.asmdef
-  artifactKey: Guid(a9420e37d7990b54abdef6688edbe313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Runtime/Unity.XR.ARFoundation.asmdef using Guid(a9420e37d7990b54abdef6688edbe313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd077032b3e6c8071cdfba3c56080e1d8') in 0.005157 seconds 
-  Import took 0.009461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.690282 seconds.
-  path: Packages/com.jelle-kul.mesh-alignment/Editor
-  artifactKey: Guid(6c0b6af87e2ae4ee2bdb115c9617690a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jelle-kul.mesh-alignment/Editor using Guid(6c0b6af87e2ae4ee2bdb115c9617690a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fff1238097f6057c944f40b9bdaeb9') in 0.013086 seconds 
-  Import took 0.018226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.314261 seconds.
-  path: Packages/com.jelle-kul.mesh-alignment/Runtime/Mesh Manipulation
-  artifactKey: Guid(506653646c873426b9fea18aabaccdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jelle-kul.mesh-alignment/Runtime/Mesh Manipulation using Guid(506653646c873426b9fea18aabaccdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed3c4416d90777f4e5586fc1f37c30a') in 0.011288 seconds 
-  Import took 0.016396 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005139 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 32.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.5 MB.
-System memory in use after: 73.6 MB.
-
-Unloading 604 unused Assets to reduce memory usage. Loaded Objects now: 1955.
-Total: 2.990200 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.054800 ms MarkObjects: 2.477200 ms  DeleteObjects: 0.207200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009603 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.54 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.462 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 7 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.4 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2544.
-Total: 3.435600 ms (FindLiveObjects: 0.311800 ms CreateObjectMapping: 0.057900 ms MarkObjects: 3.015100 ms  DeleteObjects: 0.048700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 114.028431 seconds.
-  path: Packages/com.jelle-kul.mesh-alignment/LICENSE
-  artifactKey: Guid(497ba1300cb244a0ea99b16c07af5e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jelle-kul.mesh-alignment/LICENSE using Guid(497ba1300cb244a0ea99b16c07af5e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40d777f15ec453fa5be95d8999c2fbf') in 0.031276 seconds 
-  Import took 0.039077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.921333 seconds.
-  path: Packages/com.jelle-kul.mesh-alignment/Editor/JelleKUL.MeshAlignment.Editor.asmdef
-  artifactKey: Guid(5cd4ac1b26c6042f891864192ce75700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jelle-kul.mesh-alignment/Editor/JelleKUL.MeshAlignment.Editor.asmdef using Guid(5cd4ac1b26c6042f891864192ce75700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fc84d1b995ee9b4b406be13390295c') in 0.011099 seconds 
-  Import took 0.017904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.356884 seconds.
-  path: Packages/com.jellekul.xr-data-collection/Runtime/2DDataCollection
-  artifactKey: Guid(cff4ee7b5a5524e49a82a3fad87bd559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jellekul.xr-data-collection/Runtime/2DDataCollection using Guid(cff4ee7b5a5524e49a82a3fad87bd559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ebdcdbc046e8e1a1658b8c49af99c9') in 0.015978 seconds 
-  Import took 0.021305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.498559 seconds.
-  path: Packages/com.jellekul.xr-data-collection/Editor
-  artifactKey: Guid(0bcc855b9313e9643bb5be179e4f573c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jellekul.xr-data-collection/Editor using Guid(0bcc855b9313e9643bb5be179e4f573c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72f74d0da3670a3ed6527e133e13c7a') in 0.010586 seconds 
-  Import took 0.018517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.572738 seconds.
-  path: Packages/com.jellekul.xr-data-collection/Runtime/3DDataCollection/MeshingController.cs
-  artifactKey: Guid(9ac572afd9a8eda45ae3eebbb87fe57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jellekul.xr-data-collection/Runtime/3DDataCollection/MeshingController.cs using Guid(9ac572afd9a8eda45ae3eebbb87fe57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed838654dd299462c32bc1feee4bd11') in 0.009257 seconds 
-  Import took 0.015515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006096 seconds.
-  path: Packages/com.jellekul.xr-data-collection/Runtime/3DDataCollection/MeshingController.cs
-  artifactKey: Guid(9ac572afd9a8eda45ae3eebbb87fe57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.jellekul.xr-data-collection/Runtime/3DDataCollection/MeshingController.cs using Guid(9ac572afd9a8eda45ae3eebbb87fe57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed838654dd299462c32bc1feee4bd11') in 0.005458 seconds 
-  Import took 0.010190 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.701790 seconds.
+Android Extension - Scanning For ADB Devices 4953 ms
