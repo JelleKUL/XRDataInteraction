@@ -22,11 +22,11 @@
   "articles/intro.html": {
     "href": "articles/intro.html",
     "title": "Getting Started | XR Data Interaction",
-    "keywords": "Getting Started Main Goal This Package makes it easy to create and visualize datacapture sessions. All resources are stored as an abstract dataclass Node() , containing its metadata and resource (image, mesh,...). Data Capture This package contains functions to capture and save Images and meshes from either in game, or real life using XR devices. Data Reconstruction An big part of this package is the ability to display RDF based Sessions and Nodes. All nodes can be visualised using the NodeVisualizer() Extension New nodes and Properties can be defined to suit your workflow"
+    "keywords": "Getting Started Main Goal This Package makes it easy to create and visualize datacapture sessions. All resources are stored as an abstract dataclass Node() , containing its metadata and resource (image, mesh,...). Data Capture This package contains functions to capture and save Images and meshes from either in game, or real life using XR devices. Data Interaction Through the use of Dynamic reality modeling."
   },
   "index.html": {
     "href": "index.html",
-    "title": "Main Phd project | XR Data Interaction",
-    "keywords": "Main Phd project Current Features: Mesh Texturing Mesh ALignment"
+    "title": "XRDataInteraction | XR Data Interaction",
+    "keywords": "XRDataInteraction The main Unity Project for Data interaction on XR devices namespace XRDataInteraction Installation Clone this repo into your local machine and build for the desired platform Documentation You can find the full API references here: jellekul.github.io/XRDataInteraction Licensing The code in this project is licensed under MIT license."
   }
 }
