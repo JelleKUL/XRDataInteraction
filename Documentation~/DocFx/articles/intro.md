@@ -11,12 +11,8 @@ All resources are stored as an abstract dataclass `Node()`, containing its metad
 This package contains functions to capture and save Images and meshes from either in game, or real life using XR devices.
 
 
-## Data Reconstruction
+## Data Interaction
 
-An big part of this package is the ability to display RDF based Sessions and Nodes.
-All nodes can be visualised using the `NodeVisualizer()` 
+Through the use of Dynamic reality modeling.
 
-## Extension
-
-New nodes and Properties can be defined to suit your workflow
 
