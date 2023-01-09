@@ -1,0 +1,32 @@
+{
+  "api/JelleKUL.XRDataInteraction.Foundation.ARFoundationCameraCapture.html": {
+    "href": "api/JelleKUL.XRDataInteraction.Foundation.ARFoundationCameraCapture.html",
+    "title": "Class ARFoundationCameraCapture | XR Data Interaction",
+    "keywords": "Class ARFoundationCameraCapture Inheritance Object ARFoundationCameraCapture Namespace : JelleKUL.XRDataInteraction.Foundation Assembly : cs.temp.dll.dll Syntax public class ARFoundationCameraCapture : BaseCameraCapture Methods TakeCameraImage() Declaration public override void TakeCameraImage()"
+  },
+  "api/JelleKUL.XRDataInteraction.Foundation.html": {
+    "href": "api/JelleKUL.XRDataInteraction.Foundation.html",
+    "title": "Namespace JelleKUL.XRDataInteraction.Foundation | XR Data Interaction",
+    "keywords": "Namespace JelleKUL.XRDataInteraction.Foundation Classes ARFoundationCameraCapture"
+  },
+  "api/JelleKUL.XRDataInteraction.Windows.html": {
+    "href": "api/JelleKUL.XRDataInteraction.Windows.html",
+    "title": "Namespace JelleKUL.XRDataInteraction.Windows | XR Data Interaction",
+    "keywords": "Namespace JelleKUL.XRDataInteraction.Windows Classes WindowsMeshingController Controls all aspects about the spacial meshing from the mrtk"
+  },
+  "api/JelleKUL.XRDataInteraction.Windows.WindowsMeshingController.html": {
+    "href": "api/JelleKUL.XRDataInteraction.Windows.WindowsMeshingController.html",
+    "title": "Class WindowsMeshingController | XR Data Interaction",
+    "keywords": "Class WindowsMeshingController Controls all aspects about the spacial meshing from the mrtk Inheritance Object WindowsMeshingController Namespace : JelleKUL.XRDataInteraction.Windows Assembly : cs.temp.dll.dll Syntax public class WindowsMeshingController : BaseMeshingController Methods GetSpacialMesh() Get the full mesh of all loaded observer meshes combined into one mesh Declaration public Mesh GetSpacialMesh() Returns Type Description Mesh One combined mesh GetSpacialMeshList() Get the full mesh of all loaded observer meshes Declaration public List<Mesh> GetSpacialMeshList() Returns Type Description List < Mesh > a list of all the meshes PauseScanning() Pause the mesh Observer Declaration public void PauseScanning() ResetScan() Reset the mesh observer Declaration public void ResetScan() SetDensity(SliderEventData) Declaration public void SetDensity(SliderEventData dens) Parameters Type Name Description SliderEventData dens SetDensity(Single) Declaration public void SetDensity(float dens) Parameters Type Name Description Single dens SetLevelOfDetail(Int32, Int32) Set the level of detail of the mesh observer Declaration public void SetLevelOfDetail(int lod, int customResolution = 0) Parameters Type Name Description Int32 lod -1: custom, 0: Coarse, 1: Medium, 2: Fine, 255: Unlimited Int32 customResolution if lod = custom, this set the triangles per cubic meter StartScanning() Start the mesh observer Declaration public void StartScanning() ToggleBackground() Declaration public void ToggleBackground()"
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Getting Started | XR Data Interaction",
+    "keywords": "Getting Started Main Goal This Package makes it easy to create and visualize datacapture sessions. All resources are stored as an abstract dataclass Node() , containing its metadata and resource (image, mesh,...). Data Capture This package contains functions to capture and save Images and meshes from either in game, or real life using XR devices. Data Reconstruction An big part of this package is the ability to display RDF based Sessions and Nodes. All nodes can be visualised using the NodeVisualizer() Extension New nodes and Properties can be defined to suit your workflow"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Main Phd project | XR Data Interaction",
+    "keywords": "Main Phd project Current Features: Mesh Texturing Mesh ALignment"
+  }
+}
